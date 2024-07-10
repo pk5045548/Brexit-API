@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+h3 {
+    margin: 0px;
+   font-size: 48px;
+   text-shadow:  5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+canvas {
+    display: block;
+    margin: 0;
+}
+
+select{
+    width: 80px;
+}
+.highlight {
+
+    color: red; /* Example color */
+}
+
+.background-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./london.jpg'); /* Updated path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1; /* Place the background image behind other content */
+}
+.blue {
+    padding-top: 20px;
+    background-color: rgba(1, 33, 105, 0.7);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 5px;
+}
+
+.red {
+    padding-top: 5px;
+    background-color: rgba(200, 16, 46, 0.7);
+    width: 100%;
+    height: 100%;
+    padding-bottom: 20px;
+}
+.container {
+    background-color: rgba(255, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 2px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.container1 {
+    background-color: rgba(0, 0, 255, 0.62);;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 2px;
+    width: 90%;
+    max-width: 800px;
+}
+.container2 {
+    background-color: rgba(255, 0, 0, 0.75);
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    margin: 20px auto;
+    border-radius: 2px;
+    width: 90%;
+    max-width: 800px;
+}
+
+.chart-container {
+    position: relative;
+    width: 100%; /* Ensure the chart container takes full width */
+    height: 60vh; /* Set a fixed height or adjust as needed */
+    margin: 0 auto;
+}
+
+
+/* Updated styles for dropdowns */
+.header-dropdown {
+    display: inline-block;
+    position: relative;
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.header-dropdown select {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #012169;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    width: auto; 
+    text-align: center; 
+}
+
+.header-dropdown::before {
+    background-color: rgba(255, 0, 0, 0.75);
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #666;
+    pointer-events: none;
+    z-index: 1; /* Ensure placeholder is above select arrow */
+}
+
+.header-dropdown select:focus + .header-dropdown::before {
+    display: none;
+}
+
+.header-dropdown1 {
+    display: inline-block;
+    position: relative;
+    text-align: center; 
+    font-weight: bold; 
+}
+
+.header-dropdown1 select {
+    appearance: none;
+    background: none;
+    border: none;
+    color: #8d0d22;
+    text-decoration: underline;
+    font-family: inherit;
+    font-size: inherit;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    font-weight: bolder;
+    width: auto; 
+    text-align: center; 
+}
+
+.header-dropdown1::before {
+    content: attr(data-placeholder);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    color: #666;
+    pointer-events: none;
+    z-index: 1; /* Ensure placeholder is above select arrow */
+}
+
+.header-dropdown1 select:focus + .header-dropdown::before {
+    display: none;
+}

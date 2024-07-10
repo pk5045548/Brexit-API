@@ -1,0 +1,34 @@
+Flow,Period,Estimate,Lower bound,25% limit,75% limit,Upper bound
+Immigration,YE Jun 18,757000,Not available,Not available,Not available,Not available
+Immigration,YE Dec 18,825000,Not available,Not available,Not available,Not available
+Immigration,YE Jun 19,821000,Not available,Not available,Not available,Not available
+Immigration,YE Dec 19,788000,Not available,Not available,Not available,Not available
+Immigration,YE Jun 20,736000,Not available,Not available,Not available,Not available
+Immigration,YE Dec 20,662000,Not available,Not available,Not available,Not available
+Immigration,YE Jun 21,709000,Not available,Not available,Not available,Not available
+Immigration,YE Dec 21,891000,Not available,Not available,Not available,Not available
+Immigration,YE Jun 22,1078000,1055000,1070000,1087000,1104000
+Immigration,YE Dec 22,1234000,1170000,1202000,1236000,1269000
+Immigration,YE Jun 23,1180000,1096000,1136000,1179000,1219000
+Emigration,YE Jun 18,-541000,Not available,Not available,Not available,Not available
+Emigration,YE Dec 18,-549000,Not available,Not available,Not available,Not available
+Emigration,YE Jun 19,-597000,Not available,Not available,Not available,Not available
+Emigration,YE Dec 19,-605000,Not available,Not available,Not available,Not available
+Emigration,YE Jun 20,-625000,Not available,Not available,Not available,Not available
+Emigration,YE Dec 20,-569000,Not available,Not available,Not available,Not available
+Emigration,YE Jun 21,-488000,Not available,Not available,Not available,Not available
+Emigration,YE Dec 21,-424000,Not available,Not available,Not available,Not available
+Emigration,YE Jun 22,-471000,-433000,-454000,-475000,-496000
+Emigration,YE Dec 22,-489000,-457000,-474000,-494000,-513000
+Emigration,YE Jun 23,-508000,-468000,-493000,-519000,-543000
+Net,YE Jun 18,216000,Not available,Not available,Not available,Not available
+Net,YE Dec 18,276000,Not available,Not available,Not available,Not available
+Net,YE Jun 19,224000,Not available,Not available,Not available,Not available
+Net,YE Dec 19,184000,Not available,Not available,Not available,Not available
+Net,YE Jun 20,111000,Not available,Not available,Not available,Not available
+Net,YE Dec 20,93000,Not available,Not available,Not available,Not available
+Net,YE Jun 21,221000,Not available,Not available,Not available,Not available
+Net,YE Dec 21,466000,Not available,Not available,Not available,Not available
+Net,YE Jun 22,607000,575000,600000,628000,655000
+Net,YE Dec 22,745000,679000,716000,753000,792000
+Net,YE Jun 23,672000,579000,627000,677000,724000

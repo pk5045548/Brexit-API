@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brexit - Inflation & Migration</title>
+    <link rel="stylesheet" href="./css/styles.css?version=51" >
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-annotation@1.0.2/dist/chartjs-plugin-annotation.min.js"></script>
+</head>
+<body>
+    <div class="blue">
+    <div class="background-image"></div>
+    <div class="container2">
+        <h3> Brexit - Inflation & Migration </h3s>
+    </div>
+    
+    <div class="container">
+        <h1>
+            <div class="header-dropdown">
+                <select id="term1-select" onchange="handleDropdownChange('term1-select', 'term2-select')">
+                    <option value="AveragePrice" selected>House Prices</option>
+                    <option value="HPIINDEX">Price Index</option>
+                    <option value="MortgageIndex">Mortgage Index</option>
+                    <option value="SalesVolume">Sales Volume</option>
+                </select>
+            </div>
+            <span id="changeType">Increased</span> In
+            <div class="header-dropdown">
+                <select id="term2-select" onchange="handleDropdownChange('term1-select', 'term2-select')">
+                    <option value="London" selected>London</option>
+                    <option value="Yorkshire and The Humber">Yorkshire</option>
+                    <option value="England">England</option>
+                    <option value="Scotland">Scotland</option>
+                    <option value="Wales">Wales</option>
+                    <option value="Great Britain">Britain</option>
+                </select>
+            </div>
+            By <span id="percentChangeValue">48%</span>% After Brexit
+        </h1>
+    </div>
+
+    <div class="container">
+        <div class="chart-container">
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+
+    </div>
+
+    <div class="red">
+    <div class="container1">
+        <h1>
+            The
+            <div class="header-dropdown1">
+                <select id="term3-select" onchange="handleDropdownChange1('term3-select', 'term4-select')">
+                    <option value="Immigration" selected>Immigration</option>
+                    <option value="Emigration">Emigration</option>
+                    <option value="Net">Net Migration</option>
+                </select>
+            </div>
+            Flow Of
+            <div class="header-dropdown1">
+                <select id="term4-select" onchange="handleDropdownChange1('term3-select', 'term4-select')">
+                    <option value="AllNationalities" selected>All Nationalities</option>
+                    <option value="EU">EU Citizens</option>
+                    <option value="NonEU">Non EU Citizens</option>
+                    <option value="British">British Nationals</option>
+                </select>
+            </div>
+            <span id="changeType1">Increased</span> By <span id="percentChangeValue1">48%</span>% After Brexit
+        </h1>
+    </div>
+
+    <div class="container1">
+        <div class="chart-container">
+            <canvas id="myChart1"></canvas>
+        </div>
+    </div>
+
+</div>
+    <script src="/js/script.js"></script>
+    <script src="/js/script1.js"></script>
+</body>
+</html>
