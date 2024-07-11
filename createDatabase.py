@@ -81,7 +81,7 @@ def insert_data_from_csv(folder_path, sql_file_path):
 
             insert_sql = f'INSERT INTO "{table_name}" ({columns}) VALUES ({placeholders})'
             print(f"Inserting data into {table_name} with columns {columns}")
-            input("Press Enter to continue...")  # Pauses execution until you press Enter
+            # input("Press Enter to continue...")  # Pauses execution until you press Enter
 
             for row in csv_reader:
                 try:
